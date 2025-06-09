@@ -1,0 +1,63 @@
+# Sensitive configuration files
+.env
+.env.local
+.env.*.local
+
+# Database connection files 
+# src/database/db_connect.php
+
+# Logs
+logs/
+*.log
+error.log
+access.log
+debug.log
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+*.tmp
+*.cache
+
+# User uploads and media
+uploads/
+user_uploads/
+profile_pictures/
+event_images/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PHP specific
+vendor/
+composer.lock
+
+# Sensitive student data 
+student_data/
+private_data/
+sensitive/
+
+# API keys and secrets
+api_keys.php
+secrets.php
+credentials.php
+
+# Local environment files
+.local
+.dev
+local.*
